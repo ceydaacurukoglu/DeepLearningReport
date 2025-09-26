@@ -29,9 +29,13 @@ Modelin genelleme yeteneğini artırmak ve küçük veri setinin etkilerini azal
 🔹*Boyutlandırma:* Tüm görüntüler 224×224 piksel boyutuna getirilmiştir.
 
 🔹*Artırma Teknikleri:*
+
    -Rastgele döndürme (±20°)
+   
    -Yatay ve dikey çevirme (Flip)
+   
    -Rastgele yeniden boyutlandırma ve kırpma (RandomResizedCrop)
+   
    -Parlaklık, kontrast ve doygunlukta rastgele değişiklikler (ColorJitter)
    
 🔹*Veri Bölme:* Veri seti, Eğitim (%70), Doğrulama (%15) ve Test (%15) setlerine ayrılmıştır.
